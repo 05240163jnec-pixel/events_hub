@@ -27,7 +27,7 @@ padding: 24px;
 }
 
 /* simple selectors */ 
- h1 { color: #0f172a; }                  /* element */ 
+ h1 { color: #e3e7ee; }                  /* element */ 
  .intro { background: #f8fafc; }          /* class   */ 
  #welcome { padding: 24px; }              /* id   */ 
  p.intro { font-size: 1.05rem; }           /* element.class */ 
@@ -126,3 +126,15 @@ padding: 24px;
    } 
    body { font-size: 15px; } 
  } 
+
+
+ /* Pseudo-class rule: changes link color when hovered */
+a:hover {
+  color: darkorange;   /* When the user hovers over a link, it turns dark orange */
+}
+
+/* Attribute selector rule: styles input fields of type="text" */
+input[type="text"] {
+  border: 2px solid #4CAF50;  /* Adds a green border to text input fields */
+  padding: 5px;               /* Adds spacing inside the text box */
+}
