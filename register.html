@@ -29,6 +29,15 @@
     <form action="#" method="post" enctype="multipart/form-data" id="regForm"> 
   <fieldset> 
     <legend>Personal Details</legend> 
+    <span id="err-fullname" class="error"></span> 
+<span id="err-email" class="error"></span> 
+<span id="err-phone" class="error"></span> 
+<span id="err-event_id" class="error"></span> 
+<p id="seatsHint" class="seats-hint mt-2">Choose an event to see remaining 
+seats.</p> 
+<span id="err-food" class="error"></span> 
+<span id="err-interests" class="error"></span> 
+<span id="charCount" class="text-muted">0/200</span> 
     <label for="fullname">Full name</label> 
     <input type="text" id="fullname" name="fullname"> 
     <label for="email">Email</label> 
