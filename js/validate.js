@@ -1,0 +1,2 @@
+
+console.log("validate.js is running"); 
