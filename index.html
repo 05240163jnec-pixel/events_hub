@@ -1,50 +1,76 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<!DOCTYPE html> 
- <html lang="en"> 
- <head> 
-  <head> 
-   <meta charset="UTF-8"> 
-   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-   <title>JNEC Events Hub — home</title>   <!-- change title per page --> 
-   <link rel="stylesheet" href="css/styles.css"> 
- </head> 
+    <title>JNEC Events Hub — Home</title>
 
-   <meta charset="UTF-8"> 
-   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-   <title>JNEC Events Hub — Home</title> 
-   <link rel="stylesheet" href="css/styles.css"> 
- </head> 
- <body> 
-   <header id="top"> 
-  <h1>JNEC Events Hub</h1> 
-  <nav> 
-    <a href="index.html" title="Go to home page">Home</a> 
-    <a href="events.html">Events</a> 
-    <a href="register.html">Register</a> 
-    <a href="gallery.html">Gallery</a> 
-    <a href="contact.html">Contact</a> 
-  </nav> 
-   </header> 
-   <main> 
-  <section id="welcome" class="intro"> 
-    <h2>Welcome</h2> 
-    <p>The <strong>Events Hub</strong> lists every upcoming event at 
-       	<em>Jigme Namgyel Engineering College</em>. 
-       	<span class="highlight" title="Registrations close 3 days before each 
-event"> 
-       	Register early!</span></p> 
-    <img src="media/campus.jpg" alt="JNEC campus" width="400" 
-         title="Our campus in Dewathang"> 
-  </section> 
-  <section id="location"> 
-    <h2>Find Us</h2> 
-    <iframe 
-src="https://www.openstreetmap.org/export/embed.html?bbox=91.44,26.85,91.48,26.88" 
-            	width="400" height="250" title="Campus map"></iframe> 
-  </section> 
-   </main> 
-   <footer> 
-  <p>&copy; 2026 JNEC Events Hub</p> 
-   </footer> 
- </body> 
- </html>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body id="home-page">
+
+    <header id="top">
+        <h1 id="site-title">JNEC Events Hub</h1>
+
+        <nav id="main-navigation">
+            <a id="nav-home" href="index.html" title="Go to home page">Home</a>
+            <a id="nav-events" href="events.html">Events</a>
+            <a id="nav-register" href="register.html">Register</a>
+            <a id="nav-gallery" href="gallery.html">Gallery</a>
+            <a id="nav-contact" href="contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main id="main-content">
+
+        <section id="welcome" class="intro">
+            <h2 id="welcome-heading">Welcome</h2>
+
+            <p id="welcome-text">
+                The <strong>Events Hub</strong> lists every upcoming event at
+                <em>Jigme Namgyel Engineering College</em>.
+
+                <span
+                    id="registration-notice"
+                    class="highlight"
+                    title="Registrations close 3 days before each event">
+                    Register early!
+                </span>
+            </p>
+
+            <img
+                id="campus-image"
+                src="media/campus.jpg"
+                alt="JNEC campus"
+                width="400"
+                title="Our campus in Dewathang">
+        </section>
+
+        <section id="location">
+            <h2 id="location-heading">Find Us</h2>
+
+            <iframe
+                id="campus-map"
+                src="https://www.openstreetmap.org/export/embed.html?bbox=91.44,26.85,91.48,26.88"
+                width="400"
+                height="250"
+                title="Campus map">
+            </iframe>
+        </section>
+
+    </main>
+<script> 
+console.log("Events Hub loaded (embedded script)"); 
+</script> 
+    <footer id="page-footer">
+        <p id="copyright">&copy; 2026 JNEC Events Hub</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+
+</body>
+</html>
+```
